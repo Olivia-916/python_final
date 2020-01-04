@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>孕妇死亡率和床位</title>
+<style>
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:150px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#bebebe;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#cc0000;
+}
+
+</style>
+<link href="static/hf.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="nav">
+            <ul>
+                <li><a href="/">孤儿和机构数</a></li>
+                <li><a href="/ge_data">孤儿分省年度数据</a></li>
+                <li><a href="/zm_qwm">重男轻女</a></li>
+                <li><a href="/yf_death">孕妇死亡率和床位</a></li>
+
+            </ul>
+        </div>
+{{ the_plot_all|safe }}
+
+<h2>为了验证我的猜想，我又抓取了几组数据来进行，本来随着医疗技术的发展，每年的孕妇死亡率都在下降，但在 2016-2017年，死亡率不减反增，因此我发现在妇幼疗养院床位数在2016-2017年是数量增加得比往年多，所以在床位增多的同时，统计到的孕妇死亡率也随着增加。</h2>
+
+{{ the_res|safe }}
+
+<h1>总结</h1>
+
+<h2>在当我们需要研究某一东西或社会现象的数量时，不一定要从他的直接相关数据去发掘变化原因，而是可以去调查统计这一东西或社会现象的方式是不是增多了或是仪器更加精良了，有时候统计的方式，才是数量变化剧增的原因。</h2>
+
+<p>请看完所有图表故事后再细看总结噢！</p>
+
+</body>
+</html>

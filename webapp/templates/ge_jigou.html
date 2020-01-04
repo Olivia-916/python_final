@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>孤儿和机构数</title>
+<style>
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:150px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#bebebe;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#cc0000;
+}
+
+</style>
+<link href="static/hf.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="nav" align="center">
+            <ul>
+                <li><a href="/">孤儿和机构数</a></li>
+                <li><a href="/ge_data">孤儿分省年度数据</a></li>
+                <li><a href="/zm_qwm">重男轻女</a></li>
+                <li><a href="/yf_death">孕妇死亡率和床位</a></li>
+
+            </ul>
+        </div>
+{{ the_plot_all|safe }}
+
+<h2>由上面的组合图表看得出来，孤儿的数量在2010-2011年那突增，而中国公民收养数却一直减少，并且与孤儿数量的差距越来越大，这个数据的规律与正常价值观规律不同，因此我又抓取了两组数据，分别是儿童福利机构数和收养机构数，通过对比得知，原来在近10年间，这些机构的数量正在一直增加。</h2>
+<h1>因此我有了一个猜想：人数的增加也许是因为统计的机构变多了，因此才出现数量的突增。</h1>
+
+{{ the_res|safe }}
+
+<h1>总结</h1>
+
+<h2>在当我们需要研究某一东西或社会现象的数量时，不一定要从他的直接相关数据去发掘变化原因，而是可以去调查统计这一东西或社会现象的方式是不是增多了或是仪器更加精良了，有时候统计的方式，才是数量变化剧增的原因。</h2>
+
+<p>请看完所有图表故事后再细看总结噢！</p>
+
+</body>
+</html>
