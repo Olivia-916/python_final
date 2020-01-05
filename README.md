@@ -4,6 +4,16 @@
 
 - [**项目pythonanywhere URL**](http://kegen.pythonanywhere.com/)
 
+   其中包括：
+   
+   1.[孤儿和机构数](http://kegen.pythonanywhere.com/)
+   
+   2.[孤儿分省年度数据](http://kegen.pythonanywhere.com/ge_data)
+   
+   3.[重男轻女](http://kegen.pythonanywhere.com/zm_qwm)
+   
+   4.[孕妇死亡率和床位](http://kegen.pythonanywhere.com/yf_death)
+
 - **数据传递描述:** 用户在前端下拉框选择年份或想要查看的数据后，点击**DO it!** 后，会反馈到HTML文件中的
 ```
 <select name="the_year_selected">
