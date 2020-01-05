@@ -2,7 +2,7 @@
 
 - [**项目代码Github URL**](https://github.com/fangwenxi/python_final_test/tree/master/webapp)
 
-- [[**项目pythonanywhere URL**]](http://kegen.pythonanywhere.com/)
+- [**项目pythonanywhere URL**](http://kegen.pythonanywhere.com/)
 
 - **数据传递描述:** 用户在前端下拉框选择年份或想要查看的数据后，点击**DO it!** 后，会反馈到HTML文件中的
 ```
